@@ -139,15 +139,15 @@ MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 CORS_ALLOWED_ORIGINS = [
-    "https://web-production-bcc8.up.railway.app/",
-    "https://apardeepsingh.netlify.app/",
+    "https://web-production-bcc8.up.railway.app",
+    "https://apardeepsingh.netlify.app",
     "http://localhost:3000",
     "http://127.0.0.1:3000",
 ]
 
 CSRF_TRUSTED_ORIGINS = [
-    "https://web-production-bcc8.up.railway.app/",
-    "https://apardeepsingh.netlify.app/",
+    "https://web-production-bcc8.up.railway.app",
+    "https://apardeepsingh.netlify.app",
 ]
 
 STATIC_URL = '/static/'
